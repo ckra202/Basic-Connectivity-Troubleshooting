@@ -1,4 +1,4 @@
-# Basic-Connectivity-Troubleshooting
+Basic-Connectivity-Troubleshooting
 This repository is to showcase my ability to validate a system's network network stack using command line. 
 # Network+ Lab 1 – Basic Connectivity Troubleshooting
 
