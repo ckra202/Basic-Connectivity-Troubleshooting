@@ -1,50 +1,51 @@
 Basic-Connectivity-Troubleshooting
 This repository is to showcase my ability to validate a system's network network stack using command line. 
-#Network+ Lab 1 – Basic Connectivity Troubleshooting
 
-#🔍 Objective
+# Network+ Lab 1 – Basic Connectivity Troubleshooting
+
+# Objective
 This lab simulates a real-world Tier 1 Help Desk scenario: a system that appears to be online but may have hidden network issues.  
 The goal is to use basic command-line tools to validate local and external network connectivity.
 
-# 🛠 Tools Used
+# Tools Used
 - Windows 10 Virtual Machine
 - Command Prompt
 - Basic Networking Commands (`ipconfig`, `ping`, `tracert`)
 
 ---
 
-# 🧪 Test Steps & Results
+# Test Steps & Results
 
-# 🔹 `ipconfig /all`
+# `ipconfig /all`
 Checked for:
 - ✅ IP Address assigned correctly
 - ✅ Subnet Mask and Default Gateway present
 - ✅ DNS server configured
 - ✅ DHCP enabled
 
-# 🔹 `ping 127.0.0.1`  
+# `ping 127.0.0.1`  
 - ✅ Local loopback successful  
 - Confirms that the network adapter and TCP/IP stack are functioning properly
 
-# 🔹 `ping <default gateway>`  
+# `ping <default gateway>`  
 - ✅ Gateway reachable  
 - Confirms local network connectivity to the router or default gateway
 
-# 🔹 `ping 8.8.8.8`  
+# `ping 8.8.8.8`  
 - ✅ Google DNS server reachable by IP  
 - Confirms external internet access without depending on DNS resolution
 
-# 🔹 `ping www.google.com`  
+# `ping www.google.com`  
 - ✅ DNS resolution successful  
 - Confirms that the DNS server is working correctly and returning the proper IP address
 
-# 🔹 `tracert www.google.com`  
+# `tracert www.google.com`  
 - ✅ Successful trace with multiple hops  
 - Confirms that routing to external networks is functioning as expected
 
 ---
 
-# 🧠 What I Learned
+# What I Learned
 - How to logically approach a layered network problem (Device → LAN → Internet → DNS)
 - The difference between internal connectivity issues vs external routing problems
 - The role of DNS in translating human-readable domains to IP addresses
@@ -60,6 +61,6 @@ Checked for:
 
 ---
 
-#📂 Repo Notes
+# Repo Notes
 This is part of my hands-on Network+ study series.  
 All labs are designed to reinforce certification content through real-world application and analysis.
