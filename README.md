@@ -1,6 +1,6 @@
 Basic-Connectivity-Troubleshooting
 This repository is to showcase my ability to validate a system's network network stack using command line. 
-# Network+ Lab 1 – Basic Connectivity Troubleshooting
+#Network+ Lab 1 – Basic Connectivity Troubleshooting
 
 #🔍 Objective
 This lab simulates a real-world Tier 1 Help Desk scenario: a system that appears to be online but may have hidden network issues.  
